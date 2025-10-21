@@ -114,7 +114,7 @@ function onSVGLoaded( data ){
 
 function init(){
     s = Snap("#svg");
-    Snap.load("image/info1.svg", onSVGLoaded);
+    Snap.load("info1.svg", onSVGLoaded);
     
 // sa sait pour la bare d'espace marche
     document.addEventListener('keydown', (event) => {
@@ -124,5 +124,6 @@ function init(){
         }
     });
 }
+
 
 window.addEventListener("load", init);
