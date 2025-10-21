@@ -1,0 +1,25 @@
+ body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.articlea p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#svg {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+}
