@@ -114,7 +114,7 @@ function onSVGLoaded( data ){
 
 function init(){
     s = Snap("#svg");
-    Snap.load("info1.svg", onSVGLoaded);
+    Snap.load("https://raw.githubusercontent.com/dess12anima/SAE303/main/info1.svg?sanitize=true   ", onSVGLoaded);
     
 // sa sait pour la bare d'espace marche
     document.addEventListener('keydown', (event) => {
@@ -126,3 +126,4 @@ function init(){
 }
 
 window.addEventListener("load", init);
+
